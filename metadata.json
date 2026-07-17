@@ -1,0 +1,6 @@
+{
+  "name": "Shopping Cart",
+  "description": "A feature-rich shopping cart application using Redux Toolkit and Context API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
