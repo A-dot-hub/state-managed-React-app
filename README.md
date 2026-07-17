@@ -45,3 +45,9 @@ Redux Toolkit is used for state management. `productSlice` handles fetching prod
 ## Context API Explanation
 
 ThemeContext is used to manage and persist the light/dark theme preference across the application using `localStorage`.
+
+## 🎥 Demo
+
+<p align="center">
+  <img src="./assets/demo.gif" alt="Shopping Cart Demo" width="900">
+</p>
