@@ -6,7 +6,7 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
     const savedTheme = localStorage.getItem("theme") || "light";
     if (savedTheme === "dark") {
-      document.body.classList.add("dark");
+      document.documentElement.classList.add("dark");
     }
     return savedTheme;
   });
@@ -14,9 +14,9 @@ export const ThemeProvider = ({ children }) => {
   useEffect(() => {
     localStorage.setItem("theme", theme);
     if (theme === "dark") {
-      document.body.classList.add("dark");
+      document.documentElement.classList.add("dark");
     } else {
-      document.body.classList.remove("dark");
+      document.documentElement.classList.remove("dark");
     }
   }, [theme]);
 
